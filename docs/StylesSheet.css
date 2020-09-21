@@ -46,6 +46,17 @@
   font-weight: normal;
   font-style: normal;
 }
+.HomeIcon {
+  width: 5%;
+  display: inline;
+  float: right;
+}
+.HomeIcon:hover {
+  background-color: yellow;
+}
+.HomeIcon img {
+  width: 100%;
+}
 .home h1 {
   font-family: 'moria_citadel';
   font-size: 350%;
