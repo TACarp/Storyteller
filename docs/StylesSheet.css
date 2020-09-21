@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'moria_citadel';
+  src: url('fonts/moria-citadel/moriacitadel-webfont.woff2') format('woff2'), url('fonts/moria-citadel/moriacitadel-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'alan-den';
+  src: url('fonts/alan-den/alanden_-webfont.woff2') format('woff2'), url('fonts/alan-den/alanden_-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'neuropolitical';
+  src: url('fonts/neuropolitical/neuropolitical_rg-webfont.woff2') format('woff2'), url('fonts/neuropolitical/neuropolitical_rg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cardo';
+  src: url('fonts/cardo/cardo.woff2') format('woff2'), url('fonts/cardo/cardo.woff')format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ninjago';
+  src: url('fonts/Ninjago/Ninjago.woff2') format('woff2'), url("fonts/Ninjago/Ninjago.woff")format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HTTYD';
+  src: url('fonts/HTTYD/HTTYD.woff2') format('woff2'), url("fonts/HTTYD/HTTYD.woff")format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KFP';
+  src: url('fonts/KFP/KFP.woff2') format('woff2'), url("fonts/KFP/KFP.woff")format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NK';
+  src: url('fonts/Beware/Beware.woff2') format('woff2'), url("fonts/Beware/Beware.woff")format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.home h1 {
+  font-family: 'moria_citadel';
+  font-size: 350%;
+  text-align: center;
+}
+.home h2 {
+  font-family: alan-den;
+  font-size: 175%;
+  text-align: center;
+}
+.home h3 {
+  font-family: alan-den;
+  font-size: 150%;
+  text-align: center;
+}
+.home p {
+  font-family: cardo;
+  font-size: 125%;
+}
+.home a {
+  color: yellow;
+}
+.home a:hover {
+  background-color: black;
+}
+.home {
+  padding: 1.5%;
+  color: white;
+}
+.StoryButton {
+  background-color: mediumpurple;
+  margin: 1%;
+  border-radius: 25%;
+  padding: 2.5%;
+  color: black;
+}
+.StoryButton:hover {
+  background-color: gold;
+  color: black;
+}
+.StoryButton h4 {
+  text-align: center;
+  font-size: 175%;
+}
+.StoryButton p {
+  font-family: cardo;
+  font-size: 125%;
+}
+.wholesite {
+  background-color: rebeccapurple;
+}
+.Ninjago {
+  font-family: Ninjago;
+}
+.HTTYD {
+  font-family: HTTYD;
+}
+.KFP {
+  font-family: KFP;
+}
+.NK {
+  font-family: NK;
+}
