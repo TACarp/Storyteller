@@ -65,12 +65,6 @@
   font-family: cardo;
   font-size: 125%;
 }
-.home a {
-  color: yellow;
-}
-.home a:hover {
-  background-color: black;
-}
 .home {
   padding: 1.5%;
   color: white;
@@ -97,15 +91,38 @@
 .wholesite {
   background-color: rebeccapurple;
 }
-.Ninjago {
+.Updraftia {
+  color: darkred;
+  background-color: black;
+  padding: 1.5%;
+}
+.Updraftia h1 {
+  text-align: center;
+  font-family: Givry;
+  font-size: 200%;
+}
+.UpdraftiaFont {
+  font-family: Givry;
+}
+.Updraftia p {
+  font-family: cardo;
+  font-size: 125%;
+}
+.Updraftia a {
+  color: darkred;
+}
+.Updraftia a:hover {
+  color: white;
+}
+.NinjagoFont {
   font-family: Ninjago;
 }
-.HTTYD {
+.HTTYDFont {
   font-family: HTTYD;
 }
-.KFP {
+.KFPFont {
   font-family: KFP;
 }
-.NK {
+.NKFont {
   font-family: NK;
 }
