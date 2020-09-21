@@ -101,9 +101,6 @@
   font-family: Givry;
   font-size: 200%;
 }
-.UpdraftiaFont {
-  font-family: Givry;
-}
 .Updraftia p {
   font-family: cardo;
   font-size: 125%;
@@ -113,6 +110,9 @@
 }
 .Updraftia a:hover {
   color: white;
+}
+.UpdraftiaFont {
+  font-family: Givry;
 }
 .NinjagoFont {
   font-family: Ninjago;
