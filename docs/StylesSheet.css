@@ -111,6 +111,90 @@
 .Updraftia a:hover {
   color: white;
 }
+.Ninjago {
+  background-color: royalblue;
+  padding: 1.5%;
+}
+.Ninjago h1 {
+  text-align: center;
+  font-family: Ninjago;
+  font-size: 200%;
+  color: rebeccapurple;
+}
+.Ninjago p, .Ninjago ol, .Ninjago ul {
+  font-family: cardo;
+  font-size: 125%;
+  color: yellow;
+}
+.Ninjago a {
+  color: yellow;
+}
+.Ninjago a:hover {
+  color: rebeccapurple;
+}
+.HTTYD {
+  background-color: #D8F197;
+  padding: 1.5%;
+}
+.HTTYD h1 {
+  text-align: center;
+  font-family: HTTYD;
+  font-size: 200%;
+  color: red;
+}
+.HTTYD p, .HTTYD ol, .HTTYD ul {
+  font-family: cardo;
+  font-size: 125%;
+  color: #188F6F;
+}
+.HTTYD a {
+  color: #188F6F;
+}
+.HTTYD a:hover {
+  color: red;
+}
+.KFP {
+  background-color: coral;
+  padding: 1.5%;
+}
+.KFP h1 {
+  text-align: center;
+  font-family: KFP;
+  font-size: 200%;
+  color: red;
+}
+.KFP p, .KFP ol, .KFP ul {
+  font-family: cardo;
+  font-size: 125%;
+  color: teal;
+}
+.KFP a {
+  color: teal;
+}
+.KFP a:hover {
+  color: red;
+}
+.NK {
+  background-color: teal;
+  padding: 1.5%;
+}
+.NK h1 {
+  text-align: center;
+  font-family: NK;
+  font-size: 200%;
+  color: gainsboro;
+}
+.NK p, .NK ol, .NK ul {
+  font-family: cardo;
+  font-size: 125%;
+  color: orange;
+}
+.NK a {
+  color: orange;
+}
+.NK a:hover {
+  color: gainsboro;
+}
 .UpdraftiaFont {
   font-family: Givry;
 }
