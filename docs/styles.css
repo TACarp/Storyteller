@@ -68,49 +68,44 @@
   width: 94.5%;
   background-color: var(--3-col);
 }
-.Main, .Header, .SideNav, .Footer {
-  display: inline-block;
-  float: left;
+.Main, .Header, .TopNav, .Footer {
+  display: block;
+  width: 100%;
+  padding: 2.5%;
 }
-.Main a {
-  text-decoration: none;
-  color: var(--2-col);
-}
-.Main a:hover {
-  background-color: var(--3-col);
-}
-.SideNav {
-  width: 10%;
-  height: 100%;
-  background-color: var(--2-col);
-}
+
 .Home {
   padding: 2.5%;
-  background-color: var(--1-col);
   color: var(--2-col);
+  background-color: var(--1-col);
   font-size: 100%;
   font-family: BV;
 }
-.Main {
-  width: 85%;
+.Home a {
+  text-decoration: none;
+  color: var(--2-col);
+}
+.Home a:hover {
+  background-color: var(--3-col);
 }
 .Footer, .Header {
-  padding: 2.5%;
-  margin: 2%;
-  width: 96%;
   background-color: var(--4-col);
   color: var(--2-col);
 }
-.SideNav a {
+.TopNav {
+  background-color: var(--2-col);
+}
+.TopNav a {
   padding: 2.5%;
   text-decoration: none;
   font-size: 100%;
   color: var(--1-col);
-  display: block;
+  display: inline;
   font-family: BV;
 }
-.SideNav a:hover {
-  color: var(--4-col);
+.TopNav a:hover {
+  color: var(--2-col);
+  background-color: var(--1-col);
 }
 .Main li {
   color: var(--2-col);
@@ -188,7 +183,7 @@
 .Updraftia b {
   color: grey;
 }
-.Updraftia a:hover{
+.Updraftia a:hover {
   color: black;
   background-color: darkred;
 }
