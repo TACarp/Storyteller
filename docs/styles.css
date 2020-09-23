@@ -1,311 +1,239 @@
 @font-face {
-    font-family: 'BV';
-    src: url('fonts/BV/BV.woff2') format('woff2'), url('fonts/BV/BV.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'BV';
+  src: url('fonts/BV/BV.woff2') format('woff2'), url('fonts/BV/BV.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'HTTYD';
-    src: url('fonts/HTTYD/HTTYD.woff2') format('woff2'), url('fonts/HTTYD/HTTYD.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'HTTYD';
+  src: url('fonts/HTTYD/HTTYD.woff2') format('woff2'), url('fonts/HTTYD/HTTYD.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'KFP';
-    src: url('fonts/KFP/KFP.woff2') format('woff2'), url('fonts/KFP/KFP.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'KFP';
+  src: url('fonts/KFP/KFP.woff2') format('woff2'), url('fonts/KFP/KFP.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'Ninjago';
-    src: url('fonts/Ninjago/Ninjago.woff2') format('woff2'), url('fonts/Ninjago/Ninjago.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Ninjago';
+  src: url('fonts/Ninjago/Ninjago.woff2') format('woff2'), url('fonts/Ninjago/Ninjago.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'NK';
-    src: url('fonts/NK/NK.woff2') format('woff2'), url('fonts/NK/NK.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'NK';
+  src: url('fonts/NK/NK.woff2') format('woff2'), url('fonts/NK/NK.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'MC';
-    src: url('fonts/MC/MC.woff2') format('woff2'), url('fonts/MC/MC.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'MC';
+  src: url('fonts/MC/MC.woff2') format('woff2'), url('fonts/MC/MC.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'AD';
-    src: url('fonts/AS/AS.woff2') format('woff2'), url('fonts/AD/AD.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'AD';
+  src: url('fonts/AS/AS.woff2') format('woff2'), url('fonts/AD/AD.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-
 :root {
-    --1-col: #ffa500;
-    --2-col: #FFFFFF;
-    --3-col: #823CB6;
+  --1-col: #ffa500;
+  --2-col: #ffffff;
+  --3-col: #823CB6;
+  --4-col: #94E78E;
 }
-
+.WholeSite {
+  width: 94.5%;
+  background-color: var(--3-col);
+}
+.Main, .Header, .SideNav, .Footer {
+  display: inline-block;
+  float: left;
+}
 .Main a {
-    text-decoration: none;
-    color: var(--2-col);
+  text-decoration: none;
+  color: var(--2-col);
 }
-
 .Main a:hover {
-    background-color: var(--3-col);
+  background-color: var(--3-col);
 }
-
 .SideNav {
-    width: 10%;
-    height: 100%;
-    transform: translate(0%, 50%);
-    transform-origin: left top;
-    background-color: var(--2-col);
-    padding: 2%;
+  width: 10%;
+  height: 100%;
+  background-color: var(--2-col);
 }
-
+.Home {
+  padding: 2.5%;
+  background-color: var(--1-col);
+  color: var(--2-col);
+  font-size: 100%;
+  font-family: BV;
+}
 .Main {
-    transform: translate(10%, 50%);
-    transform-origin: left top;
-    padding: 5%;
-    background-color: var(--1-col);
-    color: var(--2-col);
-    font-size: 100%;
-    font-family: BV;
-    width: 80%;
+  width: 85%;
 }
-
-.Main,
-.SideNav {
-    position: absolute;
+.Footer, .Header {
+  padding: 2.5%;
+  margin: 2%;
+  width: 96%;
+  background-color: var(--4-col);
+  color: var(--3-col);
 }
-
-
-.Header {
-    position: absolute;
-    transform: translate(0%, 0%);
-    transform-origin: left top;
-}
-
-
-
-.Footer {
-    position: inherit;
-    transform: translateY(600%);
-    transform-origin: left top;
-}
-
-.Footer,
-.Header {
-    padding: 2.5%;
-    width: 94%;
-    background-color: var(--3-col);
-    color: var(--2-col);
-}
-
 .SideNav a {
-    padding: 2.5%;
-    text-decoration: none;
-    font-size: 100%;
-    color: var(--1-col);
-    display: block;
-    font-family: BV;
+  padding: 2.5%;
+  text-decoration: none;
+  font-size: 100%;
+  color: var(--1-col);
+  display: block;
+  font-family: BV;
 }
-
 .SideNav a:hover {
-    color: black;
+  color: var(--4-col);
 }
-
-
 .Main li {
-    color: var(--2-col);
-    font-size: 100%;
-    font-family: BV;
+  color: var(--2-col);
+  font-size: 100%;
+  font-family: BV;
 }
-
-
-.Header h1,
-.Header h2 {
-    text-align: center;
+.Header h1, .Header h2 {
+  text-align: center;
 }
-
 .Header h1 {
-    font-size: 300%;
-    font-family: MC;
+  font-size: 300%;
+  font-family: MC;
 }
-
 .Header h2 {
-    font-size: 150%;
-    font-family: AD;
+  font-size: 150%;
+  font-family: AD;
 }
-
 .Footer p {
-    font-size: 100%;
-    font-family: BV;
+  font-size: 100%;
+  font-family: BV;
 }
-
 .Main img {
-    width: 100%;
+  width: 100%;
 }
-
 .Updraftia {
-    color: darkred;
-    background-color: black;
-    padding: 1.5%;
+  color: darkred;
+  background-color: black;
+  padding: 1.5%;
 }
-
 .Updraftia h1 {
-    text-align: center;
-    font-family: Givry;
-    font-size: 200%;
+  text-align: center;
+  font-family: Givry;
+  font-size: 200%;
 }
-
-.Updraftia p,
-.Updraftia li {
-    font-family: BV;
-    font-size: 125%;
-    color: darkred;
+.Updraftia p, .Updraftia li {
+  font-family: BV;
+  font-size: 125%;
+  color: darkred;
 }
-
 .Updraftia a {
-    color: darkred;
+  color: darkred;
 }
-
 .Updraftia a:hover {
-    color: white;
+  color: white;
 }
-
 .Ninjago {
-    background-color: royalblue;
-    padding: 1.5%;
+  background-color: royalblue;
+  padding: 1.5%;
 }
-
 .Ninjago h1 {
-    text-align: center;
-    font-family: Ninjago;
-    font-size: 200%;
-    color: rebeccapurple;
+  text-align: center;
+  font-family: Ninjago;
+  font-size: 200%;
+  color: rebeccapurple;
 }
-
-.Ninjago p,
-.Ninjago li {
-    font-family: BV;
-    font-size: 125%;
-    color: yellow;
+.Ninjago p, .Ninjago li {
+  font-family: BV;
+  font-size: 125%;
+  color: yellow;
 }
-
 .Ninjago a {
-    color: yellow;
+  color: yellow;
 }
-
 .Ninjago a:hover {
-    color: rebeccapurple;
+  color: rebeccapurple;
 }
-
 .HTTYD {
-    background-color: #D8F197;
-    padding: 1.5%;
+  background-color: #D8F197;
+  padding: 1.5%;
 }
-
 .HTTYD h1 {
-    text-align: center;
-    font-family: HTTYD;
-    font-size: 200%;
-    color: red;
+  text-align: center;
+  font-family: HTTYD;
+  font-size: 200%;
+  color: red;
 }
-
-.HTTYD p,
-.HTTYD li {
-    font-family: BV;
-    font-size: 125%;
-    color: #188F6F;
+.HTTYD p, .HTTYD li {
+  font-family: BV;
+  font-size: 125%;
+  color: #188F6F;
 }
-
 .HTTYD a {
-    color: #188F6F;
+  color: #188F6F;
 }
-
 .HTTYD a:hover {
-    color: red;
+  color: red;
 }
-
 .KFP {
-    background-color: coral;
-    padding: 1.5%;
+  background-color: coral;
+  padding: 1.5%;
 }
-
 .KFP h1 {
-    text-align: center;
-    font-family: KFP;
-    font-size: 200%;
-    color: red;
+  text-align: center;
+  font-family: KFP;
+  font-size: 200%;
+  color: red;
 }
-
-.KFP p,
-.KFP li {
-    font-family: BV;
-    font-size: 125%;
-    color: teal;
+.KFP p, .KFP li {
+  font-family: BV;
+  font-size: 125%;
+  color: teal;
 }
-
 .KFP a {
-    color: teal;
+  color: teal;
 }
-
 .KFP a:hover {
-    color: red;
+  color: red;
 }
-
 .NK {
-    background-color: teal;
-    padding: 1.5%;
+  background-color: teal;
+  padding: 1.5%;
 }
-
 .NK h1 {
-    text-align: center;
-    font-family: NK;
-    font-size: 200%;
-    color: gainsboro;
+  text-align: center;
+  font-family: NK;
+  font-size: 200%;
+  color: gainsboro;
 }
-
-.NK p,
-.NK li {
-    font-family: BV;
-    font-size: 125%;
-    color: orange;
+.NK p, .NK li {
+  font-family: BV;
+  font-size: 125%;
+  color: orange;
 }
-
 .NK a {
-    color: orange;
+  color: orange;
 }
-
 .NK a:hover {
-    color: gainsboro;
+  color: gainsboro;
 }
-
 .UpdraftiaFont {
-    font-family: Givry;
+  font-family: Givry;
 }
-
 .NinjagoFont {
-    font-family: Ninjago;
+  font-family: Ninjago;
 }
-
 .HTTYDFont {
-    font-family: HTTYD;
+  font-family: HTTYD;
 }
-
 .KFPFont {
-    font-family: KFP;
+  font-family: KFP;
 }
-
 .NKFont {
-    font-family: NK;
+  font-family: NK;
 }
