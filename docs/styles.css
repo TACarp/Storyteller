@@ -33,28 +33,88 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'MC';
+    src: url('fonts/MC/MC.woff2') format('woff2'), url('fonts/MC/MC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AD';
+    src: url('fonts/AS/AS.woff2') format('woff2'), url('fonts/AD/AD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --1-col: #ffa500;
+    --2-col: #FFFFFF;
+    --3-col: #823CB6;
+}
+
 .Main a {
     text-decoration: none;
-    color: white;
+    color: var(--2-col);
 }
 
 .Main a:hover {
-    background-color: #169B62;
+    background-color: var(--3-col);
 }
 
 .SideNav {
     width: 10%;
     height: 100%;
-    position: fixed;
-    background-color: white;
+    transform: translate(0%, 50%);
+    transform-origin: left top;
+    background-color: var(--2-col);
     padding: 2%;
+}
+
+.Main {
+    transform: translate(10%, 50%);
+    transform-origin: left top;
+    padding: 5%;
+    background-color: var(--1-col);
+    color: var(--2-col);
+    font-size: 100%;
+    font-family: BV;
+    width: 80%;
+}
+
+.Main,
+.SideNav {
+    position: absolute;
+}
+
+
+.Header {
+    position: absolute;
+    transform: translate(0%, 0%);
+    transform-origin: left top;
+}
+
+
+
+.Footer {
+    position: inherit;
+    transform: translateY(600%);
+    transform-origin: left top;
+}
+
+.Footer,
+.Header {
+    padding: 2.5%;
+    width: 94%;
+    background-color: var(--3-col);
+    color: var(--2-col);
 }
 
 .SideNav a {
     padding: 2.5%;
     text-decoration: none;
     font-size: 100%;
-    color: #ffa500;
+    color: var(--1-col);
     display: block;
     font-family: BV;
 }
@@ -63,51 +123,32 @@
     color: black;
 }
 
-.Main {
-    margin-left: 10%;
-    padding: 5%;
-    background-color: #ffa500;
-    color: white;
-    font-size: 100%;
-    font-family: BV;
-}
 
 .Main li {
-    color: white;
+    color: var(--2-col);
     font-size: 100%;
     font-family: BV;
 }
 
-.Header {
-    width: 100%;
-    font-family: BV;
-    background-color: #169B62;
-    color: white;
-    padding: 2.5%;
-    margin-bottom: 5%;
+
+.Header h1,
+.Header h2 {
+    text-align: center;
 }
 
 .Header h1 {
     font-size: 300%;
+    font-family: MC;
 }
 
 .Header h2 {
     font-size: 150%;
-}
-
-
-.Footer {
-    position: fixed;
-    margin-top: 5%;
-    width: 100%;
-    font-family: BV;
-    background-color: #169B62;
-    color: white;
-    padding: 2.5%;
+    font-family: AD;
 }
 
 .Footer p {
-    font-size: 100%
+    font-size: 100%;
+    font-family: BV;
 }
 
 .Main img {
