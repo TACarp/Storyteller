@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'BV';
+    src: url('fonts/BV/BV.woff2') format('woff2'), url('fonts/BV/BV.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HTTYD';
+    src: url('fonts/HTTYD/HTTYD.woff2') format('woff2'), url('fonts/HTTYD/HTTYD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KFP';
+    src: url('fonts/KFP/KFP.woff2') format('woff2'), url('fonts/KFP/KFP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ninjago';
+    src: url('fonts/Ninjago/Ninjago.woff2') format('woff2'), url('fonts/Ninjago/Ninjago.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NK';
+    src: url('fonts/NK/NK.woff2') format('woff2'), url('fonts/NK/NK.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Main a {
+    text-decoration: none;
+    color: white;
+}
+
+.Main a:hover {
+    background-color: #169B62;
+}
+
+.SideNav {
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 2%;
+}
+
+.SideNav a {
+    padding: 2.5%;
+    text-decoration: none;
+    font-size: 100%;
+    color: #ffa500;
+    display: block;
+    font-family: BV;
+}
+
+.SideNav a:hover {
+    color: black;
+}
+
+.Main {
+    margin-left: 10%;
+    padding: 5%;
+    background-color: #ffa500;
+    color: white;
+    font-size: 100%;
+    font-family: BV;
+}
+
+.Main li {
+    color: white;
+    font-size: 100%;
+    font-family: BV;
+}
+
+.Header {
+    width: 100%;
+    font-family: BV;
+    background-color: #169B62;
+    color: white;
+    padding: 2.5%;
+    margin-bottom: 5%;
+}
+
+.Header h1 {
+    font-size: 300%;
+}
+
+.Header h2 {
+    font-size: 150%;
+}
+
+
+.Footer {
+    position: fixed;
+    margin-top: 5%;
+    width: 100%;
+    font-family: BV;
+    background-color: #169B62;
+    color: white;
+    padding: 2.5%;
+}
+
+.Footer p {
+    font-size: 100%
+}
+
+.Main img {
+    width: 100%;
+}
+
+.Updraftia {
+    color: darkred;
+    background-color: black;
+    padding: 1.5%;
+}
+
+.Updraftia h1 {
+    text-align: center;
+    font-family: Givry;
+    font-size: 200%;
+}
+
+.Updraftia p,
+.Updraftia li {
+    font-family: BV;
+    font-size: 125%;
+    color: darkred;
+}
+
+.Updraftia a {
+    color: darkred;
+}
+
+.Updraftia a:hover {
+    color: white;
+}
+
+.Ninjago {
+    background-color: royalblue;
+    padding: 1.5%;
+}
+
+.Ninjago h1 {
+    text-align: center;
+    font-family: Ninjago;
+    font-size: 200%;
+    color: rebeccapurple;
+}
+
+.Ninjago p,
+.Ninjago li {
+    font-family: BV;
+    font-size: 125%;
+    color: yellow;
+}
+
+.Ninjago a {
+    color: yellow;
+}
+
+.Ninjago a:hover {
+    color: rebeccapurple;
+}
+
+.HTTYD {
+    background-color: #D8F197;
+    padding: 1.5%;
+}
+
+.HTTYD h1 {
+    text-align: center;
+    font-family: HTTYD;
+    font-size: 200%;
+    color: red;
+}
+
+.HTTYD p,
+.HTTYD li {
+    font-family: BV;
+    font-size: 125%;
+    color: #188F6F;
+}
+
+.HTTYD a {
+    color: #188F6F;
+}
+
+.HTTYD a:hover {
+    color: red;
+}
+
+.KFP {
+    background-color: coral;
+    padding: 1.5%;
+}
+
+.KFP h1 {
+    text-align: center;
+    font-family: KFP;
+    font-size: 200%;
+    color: red;
+}
+
+.KFP p,
+.KFP li {
+    font-family: BV;
+    font-size: 125%;
+    color: teal;
+}
+
+.KFP a {
+    color: teal;
+}
+
+.KFP a:hover {
+    color: red;
+}
+
+.NK {
+    background-color: teal;
+    padding: 1.5%;
+}
+
+.NK h1 {
+    text-align: center;
+    font-family: NK;
+    font-size: 200%;
+    color: gainsboro;
+}
+
+.NK p,
+.NK li {
+    font-family: BV;
+    font-size: 125%;
+    color: orange;
+}
+
+.NK a {
+    color: orange;
+}
+
+.NK a:hover {
+    color: gainsboro;
+}
+
+.UpdraftiaFont {
+    font-family: Givry;
+}
+
+.NinjagoFont {
+    font-family: Ninjago;
+}
+
+.HTTYDFont {
+    font-family: HTTYD;
+}
+
+.KFPFont {
+    font-family: KFP;
+}
+
+.NKFont {
+    font-family: NK;
+}
