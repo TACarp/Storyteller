@@ -40,6 +40,24 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'GT';
+  src: url('fonts/GT/GT.woff2') format('woff2'), url('fonts/GT/GT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CX';
+  src: url('fonts/CX/CX.woff2') format('woff2'), url('fonts/CX/CX.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TP';
+  src: url('fonts/TP/TP.woff2') format('woff2'), url('fonts/TP/TP.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
   --1-col: #ffa500;
   --2-col: #ffffff;
@@ -115,10 +133,32 @@
   font-family: BV;
 }
 .Main img {
-  width: 100%;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+.HalfColumn {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Home h1 {
+  font-size: 300%
+}
+.Home h2 {
+  font-size: 200%
+}
+.Home h3 {
+  font-size: 150%
+}
+.Home h4 {
+  font-size: 125%
 }
 .Updraftia {
-  color: darkred;
   background-color: black;
   padding: 1.5%;
 }
@@ -126,17 +166,124 @@
   text-align: center;
   font-family: Givry;
   font-size: 200%;
+  color: grey;
 }
-.Updraftia p, .Updraftia li {
+.Updraftia h2 {
+  text-align: left;
+  font-family: BV;
+  font-size: 150%;
+  color: grey;
+}
+.Updraftia h3 {
+  text-align: left;
   font-family: BV;
   font-size: 125%;
+  color: grey;
+}
+.Updraftia p, .Updraftia li, .Updraftia a {
+  font-family: BV;
+  font-size: 100%;
   color: darkred;
 }
-.Updraftia a {
-  color: darkred;
+.Updraftia b {
+  color: grey;
 }
-.Updraftia a:hover {
-  color: white;
+.Updraftia a:hover{
+  color: black;
+  background-color: darkred;
+}
+.ZD {
+  background-color: teal;
+  padding: 1.5%;
+}
+.ZD h1 {
+  text-align: center;
+  font-family: GT;
+  font-size: 200%;
+  color: #920F11;
+}
+.ZD h2 {
+  text-align: left;
+  font-family: BV;
+  font-size: 150%;
+  color: #920F11;
+}
+.ZD h3 {
+  text-align: left;
+  font-family: BV;
+  font-size: 125%;
+  color: #920F11;
+}
+.ZD p, .ZD li, .ZD a {
+  font-family: BV;
+  font-size: 100%;
+  color: darkgoldenrod;
+}
+.ZD a:hover {
+  color: #920F11;
+  background-color: darkgoldenrod;
+}
+.Naturu {
+  background-color: saddlebrown;
+  padding: 1.5%;
+}
+.Naturu h1 {
+  text-align: center;
+  font-family: CX;
+  font-size: 200%;
+  color: olive;
+}
+.Naturu h2 {
+  text-align: left;
+  font-family: BV;
+  font-size: 150%;
+  color: olive;
+}
+.Naturu h3 {
+  text-align: left;
+  font-family: BV;
+  font-size: 125%;
+  color: olive;
+}
+.Naturu p, .Naturu li, .Naturu a {
+  font-family: BV;
+  font-size: 100%;
+  color: sandybrown;
+}
+.Naturu a:hover {
+  color: olive;
+  background-color: sandybrown;
+}
+.Trithos {
+  background-color: yellow;
+  padding: 1.5%;
+}
+.Trithos h1 {
+  text-align: center;
+  font-family: TP;
+  font-size: 200%;
+  color: red;
+}
+.Trithos h2 {
+  text-align: left;
+  font-family: BV;
+  font-size: 150%;
+  color: red;
+}
+.Trithos h3 {
+  text-align: left;
+  font-family: BV;
+  font-size: 125%;
+  color: red;
+}
+.Trithos p, .Trithos li, .Trithos a {
+  font-family: BV;
+  font-size: 100%;
+  color: blue;
+}
+.Trithos a:hover {
+  color: red;
+  background-color: blue;
 }
 .Ninjago {
   background-color: royalblue;
