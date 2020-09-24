@@ -1,0 +1,53 @@
+:root {
+  --1-col: white;
+  --2-col: #ffa500;
+}
+.Chapter {
+  background-color: var(--1-col);
+}
+.Header {
+  position: fixed;
+  transform: translate(0%, 0%);
+  background-color: var(--2-col);
+}
+.Chapter p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 200%;
+  text-indent: 5%;
+}
+.Header a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, sans-serif;
+  color: var(--1-col);
+  font-size: 200%;
+}
+.Header a:hover {
+  color: var(--2-col);
+  background-color: var(--1-col);
+}
+.Chapter h1, .Chapter h2, .Chapter h3, .Chapter h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+.Chapter h1 {
+  font-size: 300%;
+}
+.Chapter h2 {
+  font-size: 200%;
+}
+.Chapter h3 {
+  font-size: 150%;
+}
+.Chapter h4 {
+  font-size: 125%;
+}
+.Transition {
+  background-color: var(--2-col);
+  height: 50px;
+  width: 25%;
+  margin: auto;
+  display: block;
+}
