@@ -1,0 +1,62 @@
+:root {
+    --1-Pcol: saddlebrown;
+    --2-Pcol: sandybrown;
+    --3-Pcol: olive;
+}
+
+@font-face {
+    font-family: 'Fancy';
+    src: url('ThemeFont.woff2') format('woff2'), url('ThemeFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Simple';
+    src: url('../../fonts/BV/BV.woff2') format('woff2'), url('../../fonts/BV/BV.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ThisPage {
+    background-color: var(--1-Pcol);
+    padding: 1.5%;
+}
+
+.ThisPage h1 {
+    text-align: center;
+    font-family: Fancy;
+    font-size: 200%;
+    color: var(--3-Pcol);
+}
+
+.ThisPage h2 {
+    text-align: left;
+    font-family: Simple;
+    font-size: 150%;
+    color: var(--3-Pcol);
+}
+
+.ThisPage h3 {
+    text-align: left;
+    font-family: Simple;
+    font-size: 125%;
+    color: var(--3-Pcol);
+}
+
+.ThisPage p,
+.ThisPage li,
+.ThisPage a {
+    font-family: Simple;
+    font-size: 100%;
+    color: var(--2-Pcol);
+}
+
+.ThisPage b {
+    color: var(--3-Pcol);
+}
+
+.ThisPage a:hover {
+    color: var(--1-Pcol);
+    background-color: var(--2-Pcol);
+}
