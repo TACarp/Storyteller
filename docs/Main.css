@@ -18,31 +18,26 @@
 }
 
 .ThisPage h1 {
-    text-align: center;
     font-family: Simple;
     font-size: 300%;
 }
 
 .ThisPage h2 {
-    text-align: left;
     font-family: Simple;
     font-size: 200%;
 }
 
 .ThisPage h3 {
-    text-align: left;
     font-family: Simple;
     font-size: 150%;
 }
 
 .ThisPage h4 {
-    text-align: left;
     font-family: Simple;
     font-size: 125%;
 }
 
 .ThisPage a {
-    text-align: left;
     font-size: 100%;
 }
 
