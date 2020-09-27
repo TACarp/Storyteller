@@ -1,0 +1,96 @@
+:root {
+  --1-Ccol: orange;
+  --2-Ccol: white;
+  --3-Ccol: black;
+}
+.Tabs {
+  display: block;
+  width: inherit;
+  margin: auto;
+}
+.tablink {
+  background-color: #555;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1%;
+  font-size: 100%;
+  width: 25%;
+  color: var(--2-Ccol);
+  font-family: Simple;
+}
+.tablink:hover {
+  background-color: #777;
+}
+.tabcontent {
+  padding: 2.5%;
+  height: 100%;
+}
+.CharBio {
+  position: inherit;
+}
+.CharBio img {
+  width: 100%;
+  margin: auto;
+}
+.CharBioText {
+  position: inherit;
+  transform: translateY(-100%);
+  background-color: var(--1-Pcol);
+  width: inherit;
+  padding: 2.5%;
+  opacity: 75%;
+}
+.CharBioText p {
+  font-family: Simple;
+  font-size: 100%;
+}
+#Char1 {
+  background-color: var(--1-Ccol);
+}
+#Char2 {
+  background-color: var(--1-Ccol);
+}
+#Char3 {
+  background-color: var(--1-Ccol);
+}
+#Char4 {
+  background-color: var(--1-Ccol);
+}
+#Char5 {
+  background-color: var(--1-Ccol);
+}
+#Char6 {
+  background-color: var(--1-Ccol);
+}
+#Char7 {
+  background-color: var(--1-Ccol);
+}
+#Char8 {
+  background-color: var(--1-Ccol);
+}
+#Char9 {
+  background-color: var(--1-Ccol);
+}
+#Char10 {
+  background-color: var(--1-Ccol);
+}
+#Char11 {
+  background-color: var(--1-Ccol);
+}
+#Char12 {
+  background-color: var(--1-Ccol);
+}
+#Char13 {
+  background-color: var(--1-Ccol);
+}
+#Char14 {
+  background-color: var(--1-Ccol);
+}
+#Char15 {
+  background-color: var(--1-Ccol);
+}
+#Char16 {
+  background-color: var(--1-Ccol);
+}

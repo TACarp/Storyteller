@@ -15,10 +15,6 @@
   font-weight: normal;
   font-style: normal;
 }
-.ThisPage {
-  background-color: var(--1-Pcol);
-  padding: 1.5%;
-}
 .ThisPage h1 {
   text-align: center;
   font-family: Fancy;

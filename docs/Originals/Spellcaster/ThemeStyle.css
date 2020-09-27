@@ -1,7 +1,7 @@
 :root {
-  --1-Pcol: #D8F197;
-  --2-Pcol: #188F6F;
-  --3-Pcol: red;
+  --1-Pcol: #80A71B;
+  --2-Pcol: #57450E;
+  --3-Pcol: #3C197C;
 }
 @font-face {
   font-family: 'Fancy';
@@ -11,7 +11,7 @@
 }
 @font-face {
   font-family: 'Simple';
-  src: url('../../../fonts/BV/BV.woff2') format('woff2'), url('../../../fonts/BV/BV.woff') format('woff');
+  src: url('../../fonts/BV/BV.woff2') format('woff2'), url('../../fonts/BV/BV.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
