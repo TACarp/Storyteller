@@ -1,53 +1,104 @@
 :root {
-  --1-col: white;
-  --2-col: #ffa500;
+    --1-col: white;
+    --2-col: #ffa500;
+    --3-col: #823CB6;
+    --4-col: #94E78E;
 }
+
 .Chapter {
-  background-color: var(--1-col);
+    background-color: var(--1-col);
 }
+
+.NextButt,
+.PrevButt {
+    display: inline-block;
+    width: 42%;
+    text-align: center;
+    font-size: 150%;
+    font-family: fancy;
+    padding: 2.5%;
+}
+
+.NextButt {
+    background-color: var(--3-col);
+    color: var(--1-col);
+}
+
+.PrevButt {
+    background-color: var(--4-col);
+    color: var(--1-col);
+}
+
+.NextButt :hover {
+    background-color: var(--1-col);
+    color: var(--3-col);
+}
+
+.PrevButt :hover {
+    background-color: var(--1-col);
+    color: var(--4-col);
+}
+
+.Chapter img {
+    width: 25%;
+}
+
 .Header {
-  position: fixed;
-  transform: translate(0%, 0%);
-  background-color: var(--2-col);
+    position: fixed;
+    transform: translate(0%, 0%);
+    background-color: var(--2-col);
 }
+
 .Chapter p {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
-  line-height: 200%;
-  text-indent: 5%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 200%;
+    text-indent: 5%;
 }
+
 .Header a {
-  text-decoration: none;
-  font-family: Verdana, Geneva, sans-serif;
-  color: var(--1-col);
-  font-size: 200%;
+    text-decoration: none;
+    font-family: Verdana, Geneva, sans-serif;
+    color: var(--1-col);
+    font-size: 200%;
 }
+
 .Header a:hover {
-  color: var(--2-col);
-  background-color: var(--1-col);
+    color: var(--2-col);
+    background-color: var(--1-col);
 }
-.Chapter h1, .Chapter h2, .Chapter h3, .Chapter h4 {
-  font-family: Verdana, Geneva, sans-serif;
-  text-align: center;
-}
-.Chapter h1 {
-  font-size: 300%;
-}
-.Chapter h2 {
-  font-size: 200%;
-}
-.Chapter h3 {
-  font-size: 150%;
-}
+
+.Chapter h1,
+.Chapter h2,
+.Chapter h3,
 .Chapter h4 {
-  font-size: 125%;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-family: Fancy;
 }
+
+.Chapter h1 {
+    font-size: 300%;
+}
+
+.Chapter h2 {
+    font-size: 200%;
+}
+
+.Chapter h3 {
+    font-size: 150%;
+}
+
+.Chapter h4 {
+    font-size: 125%;
+}
+
 .Transition {
-  background-color: var(--2-col);
-  height: 50px;
-  width: 25%;
-  margin: auto;
-  display: block;
+    background-color: var(--2-col);
+    height: 50px;
+    width: 25%;
+    margin: auto;
+    display: block;
 }
