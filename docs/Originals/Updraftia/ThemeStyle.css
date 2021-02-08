@@ -15,33 +15,34 @@
     text-align: center;
     font-family: Givry;
     font-size: 200%;
-    color: var(--3-Pcol);
+    color: var(--2-Pcol);
 }
 
 .ThisPage h2 {
     text-align: left;
     font-family: Simple;
     font-size: 150%;
-    color: var(--3-Pcol);
+    color: var(--2-Pcol);
 }
 
 .ThisPage h3 {
     text-align: left;
     font-family: Simple;
     font-size: 125%;
-    color: var(--3-Pcol);
-}
-
-.ThisPage p,
-.ThisPage li,
-.ThisPage a {
-    font-family: Simple;
-    font-size: 100%;
     color: var(--2-Pcol);
 }
 
-.ThisPage b {
+.ThisPage p,
+.ThisPage li {
+    font-family: Simple;
+    font-size: 100%;
     color: var(--3-Pcol);
+}
+
+.ThisPage b,
+.ThisPage a {
+    color: var(--2-Pcol);
+    font-size: 110%;
 }
 
 .ThisPage a:hover {

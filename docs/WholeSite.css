@@ -39,7 +39,7 @@
 }
 .Footer, .Header {
   background-color: var(--4-col);
-  color: var(--2-col);
+  color: var(--3-col);
 }
 .TopNav {
   background-color: var(--2-col);

@@ -1,39 +1,47 @@
 <!doctype html>
 <html>
-
 <head>
-    <title>Updates | Storyteller | TAC</title>
-    <link href="WholeSite.css" rel="stylesheet" type="text/css">
-    <link href="Main.css" rel="stylesheet" type="text/css">
-    <link href="Columns.css" rel="stylesheet" type="text/css">
-    <script src="w3.js"></script>
+<title>Updates | Storyteller | TAC</title>
+<link href="WholeSite.css" rel="stylesheet" type="text/css">
+<link href="Main.css" rel="stylesheet" type="text/css">
+<link href="Columns.css" rel="stylesheet" type="text/css">
+<link href="SideNav.css" rel="stylesheet" type="text/css">
+<script src="w3.js"></script> <script src="SideNav.js"></script>
 </head>
 
 <body class="WholeSite">
-    <header w3-include-html="header.html"> </header>
-    <section class="Main">
-        <section class="ThisPage">
-            <h1>Updates</h1>
-            <ul>
-                <li><b>June 14th, 2020: </b>Kung Fu Panda: The Furious Five and the Four Constellations Chapter 1 has been released.</li>
-                <li><b>May 4th, 2020: </b>NEXO Knights: Resurrected Season 1 Episdoe 1 has been posted.</li>
-                <li><b>March 29th, 2020: </b>Ninjago: Unplugged Season 1 Episode 1 has been released.</li>
-                <li><b>March 28th, 2020: </b>Dragons: Workers of Berk Chapter 1 has been released.</li>
-                <li><b>January 19th, 2020: </b>Updraftia Issue#3 has been released</li>
-                <li><b>November 27th, 2019: </b>Updraftia Volume 2 Chapter 17 has been released</li>
-                <li><b>Novemeber 24th, 2019: </b>Updraftia Issue#2 has been released.</li>
-                <li><b>October 21st, 2019: </b>Updraftia Issue#1 has been released.</li>
-                <li><b>October 5th, 2019: </b>Updraftia Volume 2 Chapter 16 has been released.</li>
-                <li><b>August 29th, 2019: </b>Updraftia Volume 2 Chapter 15 has been released.</li>
-                <li><b>April 1st, 2019: </b>Updraftia Volume 2 Chapter 14 has been released.</li>
-            </ul>
-        </section>
-    </section>
-    <footer w3-include-html="footer.html"> </footer>
+<header w3-include-html="headerLV0.html"> </header>
+<div id="myNav" class="overlay"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content"> <a href="index.html">Home</a> <a href="Updates.html">Updates</a> </div>
+</div>
+<section class="Main">
+  <section class="ThisPage">
+    <h1>Updates</h1>
+    <ul>
+      <li><b>June 14th, 2020: </b>Kung Fu Panda: The Furious Five and the Four Constellations Chapter 1 has been released.</li>
+      <li><b>May 4th, 2020: </b>NEXO Knights: Resurrected Season 1 Episdoe 1 has been posted.</li>
+      <li><b>March 29th, 2020: </b>Ninjago: Unplugged Season 1 Episode 1 has been released.</li>
+      <li><b>March 28th, 2020: </b>Dragons: Workers of Berk Chapter 1 has been released.</li>
+      <li><b>January 19th, 2020: </b>Updraftia Issue#3 has been released</li>
+      <li><b>November 27th, 2019: </b>Updraftia Volume 2 Chapter 17 has been released</li>
+      <li><b>Novemeber 24th, 2019: </b>Updraftia Issue#2 has been released.</li>
+      <li><b>October 21st, 2019: </b>Updraftia Issue#1 has been released.</li>
+      <li><b>October 5th, 2019: </b>Updraftia Volume 2 Chapter 16 has been released.</li>
+      <li><b>August 29th, 2019: </b>Updraftia Volume 2 Chapter 15 has been released.</li>
+      <li><b>April 1st, 2019: </b>Updraftia Volume 2 Chapter 14 has been released.</li>
+    </ul>
+  </section>
+</section>
+<footer w3-include-html="footer.html"> </footer>
 </body>
 <script>
     w3.includeHTML();
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 </script>
-
 </html>

@@ -1,0 +1,66 @@
+:root {
+    --1-Pcol: black;
+    --2-Pcol: darkred;
+    --3-Pcol: grey;
+}
+
+@font-face {
+    font-family: 'Simple';
+    src: url('fonts/BV/BV.woff2') format('woff2'), url('fonts/BV/BV.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ThisPage {
+    background-color: var(--1-col);
+    color: var(--2-col);
+    padding: 1.5%;
+}
+
+.ThisPage h1 {
+    text-align: center;
+    font-family: Simple;
+    font-size: 300%;
+}
+
+.ThisPage h2 {
+    text-indent: 2.5%;
+    text-align: left;
+    font-family: Simple;
+    font-size: 200%;
+}
+
+.ThisPage h3 {
+    text-indent: 5%;
+    text-align: left;
+    font-family: Simple;
+    font-size: 150%;
+}
+
+.ThisPage h4 {
+    text-indent: 7.5%;
+    text-align: left;
+    font-family: Simple;
+    font-size: 125%;
+}
+
+.ThisPage a {
+    text-indent: 10%;
+    text-align: left;
+    font-size: 100%;
+}
+
+.ThisPage p,
+.ThisPage li,
+.ThisPage a {
+    text-decoration: none;
+    font-family: Simple;
+    font-size: 100%;
+    color: var(--2-col);
+    display: block;
+}
+
+.ThisPage a:hover {
+    color: var(--1-col);
+    background-color: var(--2-col);
+}
